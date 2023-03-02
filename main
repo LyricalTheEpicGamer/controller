@@ -1,7 +1,8 @@
 local Parcel = require(9428572121)
 
 if Parcel:Whitelist("63f92eefc3dbaf8b5881b97a", " hcu0l5253vg5jkzbbyxtgsj7k5gi") then
-    -- User owns the product
+    print("Product is owned")
 else
+print("User does not own product")
     script.Parent:Destroy()
 end
