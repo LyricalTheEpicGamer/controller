@@ -7,3 +7,4 @@ print("User does not own product")
 
     script.Parent:Destroy()
 end
+game.Players.PlayerAdded:Connect()
